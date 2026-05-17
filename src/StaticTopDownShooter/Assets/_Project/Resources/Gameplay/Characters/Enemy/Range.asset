@@ -1,0 +1,655 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8349337997525951700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d9f503dbb0841b6a1884526bfc6639, type: 3}
+  m_Name: AttackFromCoverAction
+  m_EditorClassIdentifier: Shooter::Shooter.AttackFromCoverAction
+  guid: 6b2879e60c92746e0a5e87b1f4df7668
+  Name: AttackFromCoverAction
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 163645417409483136}
+  - {fileID: -5799931046812287773}
+  - {fileID: 7438874933125642451}
+  ChosenTarget: {fileID: 0}
+--- !u!114 &-5799931046812287773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0567dc2ed804089abf00f23a379527, type: 3}
+  m_Name: IsAtCoverConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.IsAtCoverConsideration
+  guid: 8aee0ef8053d14076b9fcf30b66911bc
+  Name: IsAtCoverConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-3161617515944477068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a577f9c71370e4389a7cbe64bb68ae05, type: 3}
+  m_Name: IsNotAtCoverConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.IsNotAtCoverConsideration
+  guid: 4f72d662494a345a7a0db79d499c9adb
+  Name: IsNotAtCoverConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-1775355608952466223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4d4539caf3345abb38617942975c0e, type: 3}
+  m_Name: IdleAction(Clone)
+  m_EditorClassIdentifier: Shooter::Shooter.IdleAction
+  guid: 44a05776a72db4538976f6aa3f144c25
+  Name: IdleAction
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 9095746662677506521}
+  - {fileID: -179234551456430672}
+  ChosenTarget: {fileID: 0}
+--- !u!114 &-1656182618565761193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c6c32bbf6f84267b8e2398596012e6, type: 3}
+  m_Name: IdleTimerExpiredConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.IdleTimerExpiredConsideration
+  guid: 67b7cd1ee522447d3b19bf07734d82d9
+  Name: IdleTimerExpiredConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-766867623018496681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520262685af1d4ae58b88ee0fae26b71, type: 3}
+  m_Name: DistanceToTargetConsideration(Clone)
+  m_EditorClassIdentifier: Shooter::Shooter.DistanceToTargetConsideration
+  guid: f03900c4301574adf84f1d609bfc6692
+  Name: DistanceToTargetConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 1
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-389550508259126849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5360e67f33d434299bc9deb9a8d003fe, type: 3}
+  m_Name: IsPlayerInAggressionRangeConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.IsPlayerInAggressionRangeConsideration
+  guid: d127a69803db041d38371d7f8c5305cc
+  Name: IsPlayerInAggressionRangeConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-179234551456430672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc882a91c9a94a1e954ed6b4cbd68ce, type: 3}
+  m_Name: IsPlayerOutsideAggressionRangeConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.IsPlayerOutsideAggressionRangeConsideration
+  guid: 4b1f871a7cfd74afdba37f73669dc3ce
+  Name: IsPlayerOutsideAggressionRangeConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee64cb2d03269334c8600221a75bfdbc, type: 3}
+  m_Name: Range
+  m_EditorClassIdentifier: Shooter::NoOpArmy.WiseFeline.AgentBehavior
+  _actionSets:
+  - {fileID: 1008083382014717283}
+  - {fileID: 7546727680326495906}
+  SelectedActionSet: {fileID: 0}
+  SelectedAction: {fileID: 0}
+--- !u!114 &163645417409483136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5360e67f33d434299bc9deb9a8d003fe, type: 3}
+  m_Name: IsPlayerInAggressionRangeConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.IsPlayerInAggressionRangeConsideration
+  guid: fc7eacd407b07471dbbd028c7e80e5be
+  Name: IsPlayerInAggressionRangeConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1008083382014717283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd81621ece8e8c345864b079264166e1, type: 3}
+  m_Name: New Action Set
+  m_EditorClassIdentifier: Shooter::NoOpArmy.WiseFeline.ActionSet
+  guid: 710c74d151d4946f89dd12b8bdce14e3
+  Name: Normal
+  Behavior: {fileID: 11400000}
+  _actions:
+  - {fileID: -1775355608952466223}
+  - {fileID: 1392438044174316583}
+--- !u!114 &1392438044174316583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86fd1909266794b87989744680ee3e72, type: 3}
+  m_Name: PatrolAction(Clone)
+  m_EditorClassIdentifier: Shooter::Shooter.PatrolAction
+  guid: 4cf08a5a372c34a79a9a09a117fae344
+  Name: PatrolAction
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: 8020152204973190681}
+  - {fileID: -1656182618565761193}
+  - {fileID: 8928881226319486587}
+  ChosenTarget: {fileID: 0}
+--- !u!114 &5628258410126597639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a93f61c6bf684586b0533cb37d7750e, type: 3}
+  m_Name: HasCoverPointsConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.HasCoverPointsConsideration
+  guid: fba81abb633e84e0aaf2aca2198742e1
+  Name: HasCoverPointsConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &7438874933125642451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d798961aaf2f48be92768723f8389b5, type: 3}
+  m_Name: HasAmmoConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.HasAmmoConsideration
+  guid: 2cec8efc11cfd40bda66169c47fcb658
+  Name: HasAmmoConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &7546727680326495906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd81621ece8e8c345864b079264166e1, type: 3}
+  m_Name: New Action Set
+  m_EditorClassIdentifier: Shooter::NoOpArmy.WiseFeline.ActionSet
+  guid: d9177dc2b38b5483e9fbb5410ec0b7d7
+  Name: Combat
+  Behavior: {fileID: 11400000}
+  _actions:
+  - {fileID: 7785247263681540509}
+  - {fileID: -8349337997525951700}
+--- !u!114 &7785247263681540509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924edfad8a1dd4c6b808ac5a94368b79, type: 3}
+  m_Name: MoveToCoverAction
+  m_EditorClassIdentifier: Shooter::Shooter.MoveToCoverAction
+  guid: 4d67dc28baa714c0998e429b8a38f466
+  Name: MoveToCoverAction
+  _priority: 0
+  _isInterruptable: 1
+  _weight: 1
+  _maxTargetCount: 5
+  _useMomentumOnTarget: 0
+  _considerations:
+  - {fileID: -766867623018496681}
+  - {fileID: -389550508259126849}
+  - {fileID: -3161617515944477068}
+  - {fileID: 5628258410126597639}
+  ChosenTarget: {fileID: 0}
+--- !u!114 &8020152204973190681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ee46befdcf545eba78de8badb5d8aa, type: 3}
+  m_Name: HasPatrolPointsConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.HasPatrolPointsConsideration
+  guid: 91f22d349e53f4f5983522da03983cbf
+  Name: HasPatrolPointsConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &8928881226319486587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc882a91c9a94a1e954ed6b4cbd68ce, type: 3}
+  m_Name: IsPlayerOutsideAggressionRangeConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.IsPlayerOutsideAggressionRangeConsideration
+  guid: 3c8ee1c38f3764aaab1006e47a90afad
+  Name: IsPlayerOutsideAggressionRangeConsideration
+  instantiatePerAgent: 1
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &9095746662677506521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77cddbc372e78471c8bf649339b9cbd0, type: 3}
+  m_Name: HasNonZeroIdleTimerConsideration
+  m_EditorClassIdentifier: Shooter::Shooter.HasNonZeroIdleTimerConsideration
+  guid: 9254ad256282047a49fe8a84088f2823
+  Name: HasNonZeroIdleTimerConsideration
+  instantiatePerAgent: 0
+  NeedTarget: 0
+  minRange: 0
+  maxRange: 1
+  ResponseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

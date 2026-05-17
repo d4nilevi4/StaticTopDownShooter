@@ -1,0 +1,529 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1175069785486274243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7960658362130512881}
+  - component: {fileID: 4097814627965157215}
+  - component: {fileID: 5089047845069423260}
+  - component: {fileID: 1163448999590631983}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7960658362130512881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175069785486274243}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1306515704503926293}
+  - {fileID: 7074104023512519491}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4097814627965157215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175069785486274243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 259401cedf65d41589c80a42be9da18c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Shooter::Shooter.GameEntityProvider
+  UsageType: 2
+  OnCreateType: 0
+  Scroll: {x: 0, y: 0}
+  onDestroyType: 0
+  disableEntityOnCreate: 0
+  onEnableAndDisable: 1
+  providers:
+  - rid: 3677244473140052163
+  - rid: 3677244473140052165
+  - rid: 3677244473450693412
+  - rid: 3677244473140052596
+  - rid: 3677244473140052674
+  - rid: 3677244473298649162
+  - rid: 3677244473417138311
+  - rid: 3677244473417139125
+  - rid: 3677244473417138547
+  - rid: 3677244473535103854
+  - rid: 3677244473459605570
+  - rid: 3677244473459605700
+  - rid: 3677244473467208292
+  - rid: 3677244473469829660
+  - rid: 3677244473482412356
+  - rid: 3677244473477169543
+  - rid: 3677244473486868730
+  - rid: 3677244473484247323
+  - rid: 3677244473710215804
+  - rid: 3677244474467287883
+  entityType: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 3677244473140052163
+      type: {class: TagProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473140052164
+    - rid: 3677244473140052164
+      type: {class: IsPlayer, ns: Shooter, asm: Shooter}
+      data: 
+    - rid: 3677244473140052165
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473140052166
+    - rid: 3677244473140052166
+      type: {class: MoveInput, ns: Shooter, asm: Shooter}
+      data:
+        Value: {x: 0, y: 0}
+    - rid: 3677244473140052168
+      type: {class: Speed, ns: Shooter, asm: Shooter}
+      data:
+        Value: 4.7
+    - rid: 3677244473140052170
+      type: {class: RB, ns: Shooter, asm: Shooter}
+      data:
+        Value: {fileID: 5089047845069423260}
+    - rid: 3677244473140052596
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473140052170
+    - rid: 3677244473140052674
+      type: {class: TagProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473140052675
+    - rid: 3677244473140052675
+      type: {class: CanDash, ns: Shooter, asm: Shooter}
+      data: 
+    - rid: 3677244473140052696
+      type: {class: AnimatorComponent, ns: Shooter, asm: Shooter}
+      data:
+        Value: {fileID: 1756133780203894499}
+    - rid: 3677244473298649162
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473140052696
+    - rid: 3677244473417138311
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473417138312
+    - rid: 3677244473417138312
+      type: {class: MousePosition, ns: Shooter, asm: Shooter}
+      data:
+        Value: {x: 0, y: 0}
+    - rid: 3677244473417138508
+      type: {class: AimPrefab, ns: Shooter, asm: Shooter}
+      data:
+        Value: {fileID: 4034724150561142898, guid: 81c33f14e3faa48c0a7d3b5f707c3ce5, type: 3}
+    - rid: 3677244473417138547
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473417138548
+    - rid: 3677244473417138548
+      type: {class: MoveDirection, ns: Shooter, asm: Shooter}
+      data:
+        Value: {x: 0, y: 0}
+    - rid: 3677244473417139125
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473417138508
+    - rid: 3677244473450692702
+      type: {class: BulletPrefab, ns: Shooter, asm: Shooter}
+      data:
+        Value: {fileID: 2080618734781834541, guid: 07986736e757b4b07a9e536e26dc78fd, type: 3}
+    - rid: 3677244473450692751
+      type: {class: WeaponRecoilImpulse, ns: Shooter, asm: Shooter}
+      data:
+        Value: 1.2
+    - rid: 3677244473450692778
+      type: {class: DashImpulse, ns: Shooter, asm: Shooter}
+      data:
+        Value: 48
+    - rid: 3677244473450693412
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473140052168
+    - rid: 3677244473459605570
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473450692751
+    - rid: 3677244473459605700
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473450692778
+    - rid: 3677244473464062058
+      type: {class: AmmoCount, ns: Shooter, asm: Shooter}
+      data:
+        Value: 9999
+    - rid: 3677244473464062168
+      type: {class: TransformComponent, ns: Shooter, asm: Shooter}
+      data:
+        Value: {fileID: 7960658362130512881}
+    - rid: 3677244473467208292
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473464062058
+    - rid: 3677244473469829660
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473464062168
+    - rid: 3677244473470354288
+      type: {class: CameraFollowTransform, ns: Shooter, asm: Shooter}
+      data:
+        Value: {fileID: 0}
+    - rid: 3677244473477169543
+      type: {class: TagProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473477169544
+    - rid: 3677244473477169544
+      type: {class: ShootAvailable, ns: Shooter, asm: Shooter}
+      data: 
+    - rid: 3677244473482412356
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473470354288
+    - rid: 3677244473484247189
+      type: {class: ShootPerSec, ns: Shooter, asm: Shooter}
+      data:
+        Value: 2
+    - rid: 3677244473484247323
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473484247324
+    - rid: 3677244473484247324
+      type: {class: AttackTargetPosition, ns: Shooter, asm: Shooter}
+      data:
+        Value: {x: 0, y: 0}
+    - rid: 3677244473486868730
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473484247189
+    - rid: 3677244473535103854
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473450692702
+    - rid: 3677244473710215540
+      type: {class: Hp, ns: Shooter, asm: Shooter}
+      data:
+        Current: 1000
+        Max: 1000
+    - rid: 3677244473710215804
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244473710215540
+    - rid: 3677244474467287703
+      type: {class: SpriteRenderer, ns: Shooter, asm: Shooter}
+      data:
+        Value: {fileID: 4073888951190666371}
+    - rid: 3677244474467287883
+      type: {class: ComponentProvider, ns: FFS.Libraries.StaticEcs.Unity, asm: FFS.StaticEcs.Unity}
+      data:
+        value:
+          rid: 3677244474467287703
+--- !u!50 &5089047845069423260
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175069785486274243}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!58 &1163448999590631983
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175069785486274243}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.48
+--- !u!1 &3972571683641106497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7074104023512519491}
+  - component: {fileID: 3276984219686741007}
+  - component: {fileID: 2085279864517776427}
+  m_Layer: 0
+  m_Name: Registrars
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7074104023512519491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972571683641106497}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7960658362130512881}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3276984219686741007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972571683641106497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396a0c35d8a6464a9a690b035203c379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Shooter::Shooter.RootGameComponentsRegistrar
+  EntityProvider: {fileID: 4097814627965157215}
+  ComponentsRegistrars:
+  - {fileID: 2085279864517776427}
+--- !u!114 &2085279864517776427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3972571683641106497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd9c3f8f413411994a73bfc7950ab91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Shooter::Shooter.EntityColliderRegistrar
+  Collider: {fileID: 1163448999590631983}
+--- !u!1 &6319815231657363056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1306515704503926293}
+  - component: {fileID: 1756133780203894499}
+  m_Layer: 0
+  m_Name: View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1306515704503926293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6319815231657363056}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1671330534499259567}
+  m_Father: {fileID: 7960658362130512881}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1756133780203894499
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6319815231657363056}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &8956532459568904987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1671330534499259567}
+  - component: {fileID: 4073888951190666371}
+  m_Layer: 0
+  m_Name: Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1671330534499259567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8956532459568904987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1306515704503926293}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4073888951190666371
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8956532459568904987}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7257567913506708742, guid: f6764015665244f43a7c9e15a247ef11, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.72, y: 0.9}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
