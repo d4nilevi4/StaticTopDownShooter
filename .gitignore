@@ -1,0 +1,6 @@
+*.DS_Store
+*.idea
+src/StaticTopDownShooter/Assets/_Project/Resources/Editor/StaticEcsViewConfig.asset
+src/StaticTopDownShooter/Assets/_Project/Resources/Editor/StaticEcsViewConfig.asset.meta
+src/StaticTopDownShooter/Assets/_Project/Settings/Editor/StaticEcsViewConfig.asset
+src/StaticTopDownShooter/Assets/_Project/Settings/Editor/StaticEcsViewConfig.asset.meta
