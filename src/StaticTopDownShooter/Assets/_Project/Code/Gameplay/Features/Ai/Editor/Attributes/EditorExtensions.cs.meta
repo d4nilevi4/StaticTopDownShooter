@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4e4bda3b7baf7624293ff2cf7440acc3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249840
+  packageName: Wise Feline (Lite Immersive & Emergent Utility AI)
+  packageVersion: 1.26.3
+  assetPath: Assets/NoOpArmy.WiseFeline/UtilityAI/Editor/Attributes/EditorExtensions.cs
+  uploadId: 730759

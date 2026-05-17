@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dcac1f689caaabf48830001f7b63f361
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249840
+  packageName: Wise Feline (Lite Immersive & Emergent Utility AI)
+  packageVersion: 1.26.3
+  assetPath: Assets/NoOpArmy.WiseFeline/UtilityAI/Editor/Scripts/BehaviorView.cs
+  uploadId: 730759

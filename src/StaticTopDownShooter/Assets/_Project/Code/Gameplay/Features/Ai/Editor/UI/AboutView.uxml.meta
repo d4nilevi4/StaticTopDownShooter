@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 023dff69967e08443b0ddd570f59d21c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 13804, guid: 0000000000000000e000000000000000, type: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249840
+  packageName: Wise Feline (Lite Immersive & Emergent Utility AI)
+  packageVersion: 1.26.3
+  assetPath: Assets/NoOpArmy.WiseFeline/UtilityAI/Editor/UI/AboutView.uxml
+  uploadId: 730759

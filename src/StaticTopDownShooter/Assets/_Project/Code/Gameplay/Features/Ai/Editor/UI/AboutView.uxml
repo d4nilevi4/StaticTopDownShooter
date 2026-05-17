@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="height: 200px; align-items: center; justify-content: center;">
+        <ui:VisualElement style="height: 40px;" />
+        <ui:Label text="Wise Feline v1.26.0" display-tooltip-when-elided="true" name="Label" style="-unity-font-style: bold;" />
+        <ui:VisualElement style="height: 10px;" />
+        <ui:Label text="Developer: Ashkan Saeidi Mazdeh" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+        <ui:Label text="Developer: Sina Ale Ali" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+        <ui:Label text="Demo Developer: Sajjad Kardani Moghadam" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+        <ui:Label text="Developer: Mostafa Khaleghi" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+        <ui:Label text="System Architect: Ashkan Saeidi Mazdeh" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+        <ui:Label text="3D Modeler: Masoud Zangi" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+        <ui:Label text="Website Designer: Negin Saeidi Mazdeh" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+        <ui:Label text="Graphics Designer: Parinaz Arjmand" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+        <ui:VisualElement style="height: 20px;" />
+        <ui:Label text="https://www.nooparmygames.com/" display-tooltip-when-elided="true" name="url" style="-unity-font-style: italic; color: rgb(81, 182, 255);" />
+        <ui:VisualElement style="height: 10px;" />
+        <ui:Label text="Special Thanks:&#10; Cameron Oltmann" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1;" />
+    <ui:Button text="OK" display-tooltip-when-elided="true" name="ok" />
+</ui:UXML>

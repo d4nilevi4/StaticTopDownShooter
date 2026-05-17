@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ee64cb2d03269334c8600221a75bfdbc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249840
+  packageName: Wise Feline (Lite Immersive & Emergent Utility AI)
+  packageVersion: 1.26.1
+  assetPath: Assets/NoOpArmy.WiseFeline/UtilityAI/Runtime/Core/AgentBehavior.cs
+  uploadId: 707470

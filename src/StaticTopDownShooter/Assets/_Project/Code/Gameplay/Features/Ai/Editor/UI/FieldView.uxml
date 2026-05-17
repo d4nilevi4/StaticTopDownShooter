@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/NoOpArmy.WiseFeline/UtilityAI/Editor/UI/FieldView.uss?fileID=7433441132597879392&amp;guid=44f0bae86d1b4ad4aac2e346a3aadaf8&amp;type=3#FieldView" />
+    <NoOpArmy.WiseFeline.FieldView name="fieldview" style="flex-grow: 1; height: 20px; flex-direction: row;">
+        <ui:VisualElement name="field-border" picking-mode="Ignore" style="flex-grow: 1;">
+            <ui:Button display-tooltip-when-elided="true" name="button" style="align-items: stretch; justify-content: space-around; flex-grow: 1; -unity-text-align: middle-left;">
+                <ui:Label text="Action" display-tooltip-when-elided="true" name="label-name" picking-mode="Ignore" style="flex-grow: 1; position: absolute; left: 4px; top: 0; right: 0; bottom: 0; font-size: 10px;" />
+                <ui:TextField picking-mode="Ignore" name="field-name" style="flex-grow: 1; position: absolute; left: 0; top: 0; right: 0; bottom: 0; display: none; font-size: 14px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="label-score" picking-mode="Ignore" style="flex-grow: 1; position: absolute; left: 4px; top: 0; right: 0; bottom: 0; -unity-text-align: middle-right; display: none; font-size: 12px;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </NoOpArmy.WiseFeline.FieldView>
+</ui:UXML>

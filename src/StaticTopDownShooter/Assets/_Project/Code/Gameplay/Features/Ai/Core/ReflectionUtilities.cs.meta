@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 592df4aa4c00d0346a141c86dc4875c6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249840
+  packageName: Wise Feline (Lite Immersive & Emergent Utility AI)
+  packageVersion: 1.26.1
+  assetPath: Assets/NoOpArmy.WiseFeline/UtilityAI/Runtime/Core/ReflectionUtilities.cs
+  uploadId: 707470

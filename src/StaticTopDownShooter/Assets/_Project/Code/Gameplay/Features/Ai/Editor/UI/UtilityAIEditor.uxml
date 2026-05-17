@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/NoOpArmy.WiseFeline/UtilityAI/Editor/UI/UtilityAIEditor.uss?fileID=7433441132597879392&amp;guid=c1a025f767b68b74eae345bfaa096fcc&amp;type=3#UtilityAIEditor" />
+    <NoOpArmy.WiseFeline.BehaviorView style="flex-grow: 1;">
+        <uie:Toolbar picking-mode="Ignore">
+            <ui:Label text="Agent Behavior" display-tooltip-when-elided="true" picking-mode="Ignore" name="title" style="-unity-text-align: middle-left; width: 200px;" />
+            <uie:ToolbarToggle focusable="false" label="Sort Actions" name="sort-toggle" style="width: 80px;" />
+            <uie:ToolbarSpacer name="spacer" style="flex-grow: 1;" />
+            <uie:ToolbarButton text="Documentation&#10;" display-tooltip-when-elided="true" name="documentation" />
+            <uie:ToolbarButton text="Discord&#10;" display-tooltip-when-elided="true" name="discord" />
+            <uie:ToolbarButton text="About&#10;" display-tooltip-when-elided="true" name="about" />
+        </uie:Toolbar>
+        <NoOpArmy.WiseFeline.SplitView name="main-split" fixed-pane-initial-dimension="400" style="flex-direction: row;">
+            <NoOpArmy.WiseFeline.SplitView fixed-pane-initial-dimension="200" name="sets-actions-split" picking-mode="Ignore" style="width: 360px; min-width: 270px;">
+                <ui:VisualElement name="actionsets-parent" style="flex-grow: 1; max-width: 180px; min-width: 80px; display: flex; visibility: visible; overflow: visible; width: 120px;">
+                    <ui:Label text="Action Sets" display-tooltip-when-elided="true" style="font-size: 14px; -unity-font-style: bold;" />
+                    <ui:VisualElement style="flex-grow: 1;">
+                        <ui:ScrollView name="actionset-container" mode="VerticalAndHorizontal" picking-mode="Ignore" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:Button text="Add Action Set" display-tooltip-when-elided="true" name="add-actionset" class="buttons" />
+                </ui:VisualElement>
+                <ui:VisualElement name="actions-parent" style="min-width: 150px; width: 240px;">
+                    <ui:Label text="Actions" display-tooltip-when-elided="true" style="font-size: 14px; -unity-font-style: bold;" />
+                    <ui:VisualElement style="flex-grow: 1;">
+                        <ui:ScrollView name="actions-container" mode="VerticalAndHorizontal" picking-mode="Ignore" style="flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:Button text="Add Action" display-tooltip-when-elided="true" name="add-action" class="buttons" />
+                </ui:VisualElement>
+            </NoOpArmy.WiseFeline.SplitView>
+            <NoOpArmy.WiseFeline.SplitView name="cons-inspector-split" picking-mode="Ignore" fixed-pane-initial-dimension="200" style="width: 480px; min-width: 300px;">
+                <ui:VisualElement name="considerations-parent" style="flex-grow: 1; min-width: 150px;">
+                    <ui:Label text="Considerations" display-tooltip-when-elided="true" style="-unity-font-style: bold; font-size: 14px;" />
+                    <ui:VisualElement style="flex-grow: 1;">
+                        <ui:ScrollView name="consideration-container" mode="VerticalAndHorizontal" picking-mode="Ignore" style="flex-grow: 1; min-width: 150px;" />
+                    </ui:VisualElement>
+                    <ui:Button text="Add Consideration" display-tooltip-when-elided="true" name="add-consideration" class="buttons" />
+                </ui:VisualElement>
+                <ui:VisualElement name="inspector-parent" style="padding-right: 10px;">
+                    <ui:Label text="Properties" display-tooltip-when-elided="true" style="font-size: 14px; -unity-font-style: bold;" />
+                    <ui:VisualElement style="flex-grow: 1; border-left-width: 5px; border-top-width: 5px; border-bottom-width: 5px;">
+                        <ui:ScrollView>
+                            <NoOpArmy.WiseFeline.InspectorView name="inspector" style="flex-grow: 1; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px;" />
+                        </ui:ScrollView>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </NoOpArmy.WiseFeline.SplitView>
+        </NoOpArmy.WiseFeline.SplitView>
+    </NoOpArmy.WiseFeline.BehaviorView>
+</ui:UXML>

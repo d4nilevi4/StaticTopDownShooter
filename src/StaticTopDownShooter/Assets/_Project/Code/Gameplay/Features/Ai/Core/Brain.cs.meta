@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3899f770da8bf6a47a41a3d5df6d3cfc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249840
+  packageName: Wise Feline (Lite Immersive & Emergent Utility AI)
+  packageVersion: 1.26.1
+  assetPath: Assets/NoOpArmy.WiseFeline/UtilityAI/Runtime/Core/Brain.cs
+  uploadId: 707470

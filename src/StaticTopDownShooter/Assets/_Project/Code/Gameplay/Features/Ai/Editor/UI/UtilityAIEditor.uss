@@ -1,0 +1,6 @@
+.buttons {
+    background-color: rgb(88, 88, 88);
+    height: 40px;
+    font-size: 10px;
+    -unity-font-style: bold;
+}

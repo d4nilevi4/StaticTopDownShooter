@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fe7f71186d5c7b04fa0f7917a8a70ed3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249840
+  packageName: Wise Feline (Lite Immersive & Emergent Utility AI)
+  packageVersion: 1.26.3
+  assetPath: Assets/NoOpArmy.WiseFeline/UtilityAI/Editor/Scripts/FieldView.cs
+  uploadId: 730759
