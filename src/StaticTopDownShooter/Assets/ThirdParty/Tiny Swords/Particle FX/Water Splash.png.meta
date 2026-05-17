@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: 1e38d6ffbdd7e4dfd9999cb8f216fda9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2050838275424575437
+    second: Water Splash_0
+  - first:
+      213: 738320296715068171
+    second: Water Splash_1
+  - first:
+      213: -9098179098987060170
+    second: Water Splash_2
+  - first:
+      213: 2237640873078851078
+    second: Water Splash_3
+  - first:
+      213: -3044144973610908261
+    second: Water Splash_4
+  - first:
+      213: -4444164948044420745
+    second: Water Splash_5
+  - first:
+      213: 4489507016002369244
+    second: Water Splash_6
+  - first:
+      213: 5373122523646378032
+    second: Water Splash_7
+  - first:
+      213: 5321815751936357235
+    second: Water Splash_8
+  - first:
+      213: -3224333507177068101
+    second: Water Splash_9
+  - first:
+      213: 8758516796063682798
+    second: Water Splash_10
+  - first:
+      213: 7775401642420602940
+    second: Water Splash_11
+  - first:
+      213: 8729710134721000660
+    second: Water Splash_12
+  - first:
+      213: 2848943187326535277
+    second: Water Splash_13
+  - first:
+      213: 1230228885185808678
+    second: Water Splash_14
+  - first:
+      213: -569524807973282292
+    second: Water Splash_15
+  - first:
+      213: 8426151285600473254
+    second: Water Splash_16
+  - first:
+      213: -481019097371764288
+    second: Water Splash_17
+  - first:
+      213: -3558905931573388912
+    second: Water Splash_18
+  - first:
+      213: 5960719419072076935
+    second: Water Splash_19
+  - first:
+      213: -3923083035380018685
+    second: Water Splash_20
+  - first:
+      213: 9219454831940028910
+    second: Water Splash_21
+  - first:
+      213: -6571088124915517215
+    second: Water Splash_22
+  - first:
+      213: -2902133170712573373
+    second: Water Splash_23
+  - first:
+      213: -4783342866019625448
+    second: Water Splash_24
+  - first:
+      213: 4545098063249515432
+    second: Water Splash_25
+  - first:
+      213: -1194087588707992598
+    second: Water Splash_26
+  - first:
+      213: 3137585098999423530
+    second: Water Splash_27
+  - first:
+      213: 4135855261498579970
+    second: Water Splash_28
+  - first:
+      213: 3101511678893395180
+    second: Water Splash_29
+  - first:
+      213: -8263866107836380920
+    second: Water Splash_30
+  - first:
+      213: 373803176880821874
+    second: Water Splash_31
+  - first:
+      213: -9049303308173380958
+    second: Water Splash_32
+  - first:
+      213: 1352765202693312982
+    second: Water Splash_33
+  - first:
+      213: -4389580091017249856
+    second: Water Splash_34
+  - first:
+      213: -2391033923859985305
+    second: Water Splash_35
+  - first:
+      213: -7598371628090425132
+    second: Water Splash_36
+  - first:
+      213: -8827543341117881596
+    second: Water Splash_37
+  - first:
+      213: 2926258123604298432
+    second: Water Splash_38
+  - first:
+      213: -1127100803063154291
+    second: Water Splash_39
+  - first:
+      213: -1116367508856552231
+    second: Water Splash_40
+  - first:
+      213: -4544907455699499047
+    second: Water Splash_41
+  - first:
+      213: 3570829962460747635
+    second: Water Splash_42
+  - first:
+      213: 1355205525447712833
+    second: Water Splash_43
+  - first:
+      213: 3618609875625963517
+    second: Water Splash_44
+  - first:
+      213: -1941977175486166268
+    second: Water Splash_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water Splash_0
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 58
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfd472bb8a067c10800000000000000
+      internalID: 2050838275424575437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_1
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 51
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03a928e56a0f3a00800000000000000
+      internalID: 738320296715068171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_2
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 76
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6342efd4056ccb180800000000000000
+      internalID: -9098179098987060170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_3
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 122
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60682ceb482bd0f10800000000000000
+      internalID: 2237640873078851078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_4
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 126
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95812b664601c5d0800000000000000
+      internalID: -3044144973610908261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_5
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 122
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779e194a6872352c0800000000000000
+      internalID: -4444164948044420745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_6
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 88
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6f17938deed4e30800000000000000
+      internalID: 4489507016002369244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_7
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 124
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030c79c977a219a40800000000000000
+      internalID: 5373122523646378032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_8
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 98
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373be3eea33ead940800000000000000
+      internalID: 5321815751936357235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_9
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 124
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9425b22cdd043d0800000000000000
+      internalID: -3224333507177068101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_10
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 121
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee01ba41f908c8970800000000000000
+      internalID: 8758516796063682798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_11
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 99
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3808721996c7eb60800000000000000
+      internalID: 7775401642420602940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_12
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 126
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d43c249d19262970800000000000000
+      internalID: 8729710134721000660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_13
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 100
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d660ed90cba798720800000000000000
+      internalID: 2848943187326535277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_14
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 119
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629cced27a6a21110800000000000000
+      internalID: 1230228885185808678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_15
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 80
+        width: 15
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0edaf16434a818f0800000000000000
+      internalID: -569524807973282292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 83
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0dae953f3bfe470800000000000000
+      internalID: 8426151285600473254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 72
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c91af2fda31359f0800000000000000
+      internalID: -481019097371764288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_18
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 103
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099998f39e93c9ec0800000000000000
+      internalID: -3558905931573388912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_19
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 109
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c509bfabab8b250800000000000000
+      internalID: 5960719419072076935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_20
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 107
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30210d3c3c86e89c0800000000000000
+      internalID: -3923083035380018685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_21
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 103
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee94b88a25512ff70800000000000000
+      internalID: 9219454831940028910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_22
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e87f9e5a2ecec4a0800000000000000
+      internalID: -6571088124915517215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_23
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 56
+        width: 216
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a8cc4e14d89b7d0800000000000000
+      internalID: -2902133170712573373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_24
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 98
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8165000b1072e9db0800000000000000
+      internalID: -4783342866019625448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_25
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 97
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3ad498b9e631f30800000000000000
+      internalID: 4545098063249515432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_26
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 86
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb7b542aafbd6fe0800000000000000
+      internalID: -1194087588707992598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_27
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 93
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a226b6e1601fa8b20800000000000000
+      internalID: 3137585098999423530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_28
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c9d089272856930800000000000000
+      internalID: 4135855261498579970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_29
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 88
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec8a2f7078ca0b20800000000000000
+      internalID: 3101511678893395180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_30
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 83
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809c50b0f89d05d80800000000000000
+      internalID: -8263866107836380920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_31
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 77
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276d4e54204003500800000000000000
+      internalID: 373803176880821874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_32
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 88
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2fe83269a6a6280800000000000000
+      internalID: -9049303308173380958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_33
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d15b0bd8ccf5c210800000000000000
+      internalID: 1352765202693312982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_34
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb3ac90a241513c0800000000000000
+      internalID: -4389580091017249856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_35
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 87
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cca62805751ded0800000000000000
+      internalID: -2391033923859985305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_36
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0834c13492d8690800000000000000
+      internalID: -7598371628090425132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_37
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 77
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403cd410a144e7580800000000000000
+      internalID: -8827543341117881596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_38
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 52
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca098a62482c9820800000000000000
+      internalID: 2926258123604298432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_39
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 66
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89fc5f8acbbb50f0800000000000000
+      internalID: -1127100803063154291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_40
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 76
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d441db5aadd180f0800000000000000
+      internalID: -1116367508856552231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_41
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 76
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7c10ebfbe3de0c0800000000000000
+      internalID: -4544907455699499047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_42
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 69
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3775bc98ee22e8130800000000000000
+      internalID: 3570829962460747635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_43
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 70
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14025f5ce38aec210800000000000000
+      internalID: 1355205525447712833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_44
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 53
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffe7697282e73230800000000000000
+      internalID: 3618609875625963517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Splash_45
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 51
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b0b354c06bc05e0800000000000000
+      internalID: -1941977175486166268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Water Splash_0: 2050838275424575437
+      Water Splash_1: 738320296715068171
+      Water Splash_10: 8758516796063682798
+      Water Splash_11: 7775401642420602940
+      Water Splash_12: 8729710134721000660
+      Water Splash_13: 2848943187326535277
+      Water Splash_14: 1230228885185808678
+      Water Splash_15: -569524807973282292
+      Water Splash_16: 8426151285600473254
+      Water Splash_17: -481019097371764288
+      Water Splash_18: -3558905931573388912
+      Water Splash_19: 5960719419072076935
+      Water Splash_2: -9098179098987060170
+      Water Splash_20: -3923083035380018685
+      Water Splash_21: 9219454831940028910
+      Water Splash_22: -6571088124915517215
+      Water Splash_23: -2902133170712573373
+      Water Splash_24: -4783342866019625448
+      Water Splash_25: 4545098063249515432
+      Water Splash_26: -1194087588707992598
+      Water Splash_27: 3137585098999423530
+      Water Splash_28: 4135855261498579970
+      Water Splash_29: 3101511678893395180
+      Water Splash_3: 2237640873078851078
+      Water Splash_30: -8263866107836380920
+      Water Splash_31: 373803176880821874
+      Water Splash_32: -9049303308173380958
+      Water Splash_33: 1352765202693312982
+      Water Splash_34: -4389580091017249856
+      Water Splash_35: -2391033923859985305
+      Water Splash_36: -7598371628090425132
+      Water Splash_37: -8827543341117881596
+      Water Splash_38: 2926258123604298432
+      Water Splash_39: -1127100803063154291
+      Water Splash_4: -3044144973610908261
+      Water Splash_40: -1116367508856552231
+      Water Splash_41: -4544907455699499047
+      Water Splash_42: 3570829962460747635
+      Water Splash_43: 1355205525447712833
+      Water Splash_44: 3618609875625963517
+      Water Splash_45: -1941977175486166268
+      Water Splash_5: -4444164948044420745
+      Water Splash_6: 4489507016002369244
+      Water Splash_7: 5373122523646378032
+      Water Splash_8: 5321815751936357235
+      Water Splash_9: -3224333507177068101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
