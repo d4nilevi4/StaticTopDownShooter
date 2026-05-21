@@ -1,32 +1,28 @@
 using NoOpArmy.WiseFeline;
+using UnityEngine.AI;
 
 namespace Shooter
 {
     public sealed class AttackFromCoverAction : ActionBase
     {
-        protected override void UpdateTargets(Game.Entity entity)
-        {
-            ClearTargets();
-            if (Game.Query<All<IsPlayer, TransformComponent>>().One(out var player))
-            {
-                AddTarget(player.Read<TransformComponent>().Value);
-            }
-        }
-
         protected override void OnStart(Game.Entity entity)
         {
             entity.Set<IsAttacking>();
 
-            var agent = entity.Read<AgentBehaviour>().Value;
+            NavMeshAgent agent = entity.Read<AgentBehaviour>().Value;
             if (agent != null && agent.isOnNavMesh && agent.hasPath)
                 agent.ResetPath();
         }
 
         protected override void OnUpdate(Game.Entity entity)
         {
-            if (ChosenTarget == null) return;
+            if (!Game.Query<All<IsPlayer, TransformComponent>>().One(out var player))
+            {
+                ActionFailed(entity);
+            }
+            
 
-            var targetTransform = (Transform)ChosenTarget;
+            Transform targetTransform = player.Read<TransformComponent>().Value;
             entity.Mut<AttackTargetPosition>().Value = targetTransform.position;
 
             if (entity.Has<ShootAvailable>() && entity.Read<AmmoCount>().Value > 0)

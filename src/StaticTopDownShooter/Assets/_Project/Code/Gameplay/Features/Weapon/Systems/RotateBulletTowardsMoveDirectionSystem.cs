@@ -4,7 +4,7 @@ public struct RotateBulletTowardsMoveDirectionSystem : ISystem
 {
     public void Update()
     {
-        Game.Query<All<IsBullet, RB, MoveDirection>>().For(static
+        Game.Query<All<IsBullet>>().For(static
         (
             in RB rb,
             in MoveDirection moveDirection

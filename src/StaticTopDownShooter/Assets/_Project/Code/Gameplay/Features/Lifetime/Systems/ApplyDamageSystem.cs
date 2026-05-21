@@ -13,28 +13,22 @@ public struct ApplyDamageSystem : ISystem
     {
         foreach (World<GameWT>.Event<DamageEvent> damageEvent in _damageEventReceiver)
         {
-            Game.Query<All<Hp>>().For(
-                damageEvent.Value,
-                static
-            (
-                ref DamageEvent damageEvent,
-                Game.Entity entity,
-                ref Hp health
-            ) =>
-            {
-                if (damageEvent.Target != entity.GID)
-                    return;
+            DamageEvent eventData = damageEvent.Value;
 
-                health.Current -= damageEvent.Value;
+            if (eventData.Target.TryUnpack<GameWT>(out var target) && target.IsMatch<All<Hp>>())
+            {
+                ref Hp health = ref target.Mut<Hp>();
+
+                health.Current -= eventData.Value;
 
                 if (health.Current <= 0)
                 {
                     Game.SendEvent(new DeadEvent()
                     {
-                        Target = entity.GID
+                        Target = target.GID
                     });
                 }
-            });
+            }
         }
     }
 

@@ -16,7 +16,7 @@ public struct HandleBulletCollisionInputSystem : ISystem
             if (!triggerEnterEvent.Value.Source.TryUnpack<GameWT>(out var entity))
                 continue;
 
-            if (!entity.Has<OwnerGID>() && !entity.Has<IsBullet>())
+            if(!entity.IsMatch<All<OwnerGID, IsBullet>>())
                 continue;
 
             EntityGID other = ColliderRegistry.GetEntityGid(triggerEnterEvent.Value.OtherColliderId);

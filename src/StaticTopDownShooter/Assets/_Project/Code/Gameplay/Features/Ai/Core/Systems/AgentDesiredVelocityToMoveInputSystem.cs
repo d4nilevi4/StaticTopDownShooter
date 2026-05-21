@@ -4,7 +4,7 @@ public struct AgentDesiredVelocityToMoveInputSystem : ISystem
 {
     public void Update()
     {
-        Game.Query<All<MoveInput, AgentBehaviour>>()
+        Game.Query()
             .For(static (ref MoveInput input, in AgentBehaviour agent) =>
             {
                 var nav = agent.Value;

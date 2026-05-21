@@ -11,26 +11,15 @@ public struct DestroyViewByDeadEventSystem : ISystem
 
     public void Update()
     {
-        foreach (World<GameWT>.Event<DeadEvent> deadEvent in _deadEventReceiver)
+        foreach (World<GameWT>.Event<DeadEvent> deadEvent in _deadEventReceiver.LastOnly())
         {
-            // if (!deadEvent.IsLastReading())
-                // continue;
+            var deadEventData = deadEvent.Value;
 
-            Game.Query<All<TransformComponent>>().For(
-                deadEvent.Value,
-                static
-                (
-                    ref DeadEvent deadEvent,
-                    Game.Entity entity,
-                    ref TransformComponent component
-                ) =>
-                {
-                    if (deadEvent.Target != entity.GID)
-                        return;
-
-                    Object.Destroy(component.Value.gameObject);
-                    entity.Destroy();
-                });
+            if (deadEventData.Target.TryUnpack<GameWT>(out var target) && target.IsMatch<All<TransformComponent>>())
+            {
+                Object.Destroy(target.Mut<TransformComponent>().Value.gameObject);
+                target.Destroy();
+            }            
         }
     }
 

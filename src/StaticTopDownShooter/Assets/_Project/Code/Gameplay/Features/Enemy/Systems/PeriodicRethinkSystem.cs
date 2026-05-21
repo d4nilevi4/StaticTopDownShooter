@@ -16,8 +16,7 @@ public struct PeriodicRethinkSystem : ISystem
         if (_accumulator < interval) return;
         _accumulator -= interval;
 
-        Game.Query<All<IsEnemy, BrainComponent>>().For(static
-            (entity) =>
+        Game.Query<All<IsEnemy, BrainComponent>>().For(static (entity) =>
         {
             entity.Set<IsNeedRethink>();
         });

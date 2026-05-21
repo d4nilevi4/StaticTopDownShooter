@@ -11,49 +11,48 @@ public struct BulletSpawnSystem : ISystem
 
     public void Update()
     {
-        var query = Game.Query<All<
-            AmmoCount,
+        All<AmmoCount,
             TransformComponent,
             AttackTargetPosition,
             BulletPrefab,
             WeaponRecoilImpulse,
             ShootAvailable,
-            ShootPerSec
-        >>();
+            ShootPerSec> filter = default;
 
         foreach (var attackEvent in _attackEventReceiver)
-        foreach (var entity in query.Entities())
         {
-            if (entity.GID != attackEvent.Value.InputOwner)
-                continue;
+            var attackEventData = attackEvent.Value;
+            
+            if (attackEventData.InputOwner.TryUnpack<GameWT>(out var entity) && entity.IsMatch(filter))
+            {
+                if (entity.Read<AmmoCount>().Value <= 0)
+                    continue;
 
-            if (entity.Read<AmmoCount>().Value <= 0)
-                continue;
+                var aimPosition = entity.Read<AttackTargetPosition>().Value;
+                var transform = entity.Mut<TransformComponent>().Value;
+                var bulletPrefab = entity.Read<BulletPrefab>().Value;
+                var recoilImpulse = entity.Read<WeaponRecoilImpulse>().Value;
+                ref var ammoCount = ref entity.Mut<AmmoCount>();
 
-            var aimPosition = entity.Read<AttackTargetPosition>().Value;
-            var transform = entity.Mut<TransformComponent>().Value;
-            var bulletPrefab = entity.Read<BulletPrefab>().Value;
-            var recoilImpulse = entity.Read<WeaponRecoilImpulse>().Value;
-            ref var ammoCount = ref entity.Mut<AmmoCount>();
+                var direction = (aimPosition - transform.position.ToVector2()).normalized;
+                var bulletObj = Object.Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+                bulletObj.gameObject.name = $"{bulletPrefab.name}(Owner: {entity.ID})";
+                bulletObj.CreateEntity();
+                Object.Destroy(bulletObj.gameObject, 10f);
 
-            var direction = (aimPosition - transform.position.ToVector2()).normalized;
-            var bulletObj = Object.Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-            bulletObj.gameObject.name = $"{bulletPrefab.name}(Owner: {entity.ID})";
-            bulletObj.CreateEntity();
-            Object.Destroy(bulletObj.gameObject, 10f);
+                var bullet = bulletObj.Entity;
+                bullet.Add<MoveDirection>().Value = direction;
+                bullet.Add<OwnerGID>().Value = entity.GID;
 
-            var bullet = bulletObj.Entity;
-            bullet.Add<MoveDirection>().Value = direction;
-            bullet.Add<OwnerGID>().Value = entity.GID;
+                entity.Add<MoveImpulse>().Value = recoilImpulse * -direction;
 
-            entity.Add<MoveImpulse>().Value = recoilImpulse * -direction;
+                ammoCount.Value--;
 
-            ammoCount.Value--;
+                float shootPerSec = entity.Read<ShootPerSec>().Value;
 
-            float shootPerSec = entity.Read<ShootPerSec>().Value;
-
-            float cooldown = Mathf.Approximately(shootPerSec, 0) ? 0 : 1 / shootPerSec;
-            entity.Add<ShootCooldownTimer>().Value = cooldown;
+                float cooldown = Mathf.Approximately(shootPerSec, 0) ? 0 : 1 / shootPerSec;
+                entity.Add<ShootCooldownTimer>().Value = cooldown;
+            }
         }
     }
 

@@ -4,7 +4,7 @@ public struct UpdateCameraFollowPosition : ISystem
 {
     public void Update()
     {
-        Game.Query<All<IsPlayer, TransformComponent, CameraFollowTransform, MousePosition>>().For(static
+        Game.Query<All<IsPlayer>>().For(static
         (
             ref CameraFollowTransform cameraFollowTransform,
             in TransformComponent playerTransform,

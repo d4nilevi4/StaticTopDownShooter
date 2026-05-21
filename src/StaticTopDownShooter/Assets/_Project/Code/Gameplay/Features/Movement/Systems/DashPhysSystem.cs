@@ -12,17 +12,19 @@ public struct DashPhysSystem : ISystem
     public void Update()
     {
         foreach (var dodgeEvent in _dashInputReceiver)
-        foreach (var entity in Game.Query<All<DashImpulse, CanDash, MoveInput>>().Entities())
         {
-            if (entity.GID != dodgeEvent.Value.InputOwner)
-                continue;
+            var dodgeEventData = dodgeEvent.Value;
 
-            Vector2 moveInput = entity.Read<MoveInput>().Value;
-            Vector2 dashDirection = moveInput.sqrMagnitude < 0.01f
-                ? Vector2.up
-                : moveInput.normalized;
+            if (dodgeEventData.InputOwner.TryUnpack<GameWT>(out var target) &&
+                target.IsMatch<All<DashImpulse, CanDash, MoveInput>>())
+            {
+                Vector2 moveInput = target.Read<MoveInput>().Value;
+                Vector2 dashDirection = moveInput.sqrMagnitude < 0.01f
+                    ? Vector2.up
+                    : moveInput.normalized;
 
-            entity.Add<MoveImpulse>().Value = dashDirection * entity.Read<DashImpulse>().Value;
+                target.Add<MoveImpulse>().Value = dashDirection * target.Read<DashImpulse>().Value;
+            }
         }
     }
 

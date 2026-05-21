@@ -4,7 +4,7 @@ public struct SyncAgentSimulationPositionSystem : ISystem
 {
     public void Update()
     {
-        Game.Query<All<AgentBehaviour, TransformComponent>>()
+        Game.Query()
             .For(static (in AgentBehaviour agent, in TransformComponent transform) =>
             {
                 if (agent.Value == null) return;
